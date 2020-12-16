@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/home/runner/work/powershell/powershell/dev/pages",
+  "source_base_path": "/home/runner/work/pnppowershellcore/pnppowershellcore/dev/pages",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/authentication.html",
-          "hash": "wjYqlbRWagwZ+mXk8f++KQ=="
+          "hash": "BWdC3hNMpo0fHdoXx6264Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azurefunctions.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azurefunctions.html",
+          "hash": "p+J9Q2X85KKvhN0BxWSShA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +42,31 @@
       "output": {
         ".html": {
           "relative_path": "articles/buildingsource.html",
-          "hash": "UJo+CvOkZL7zfOHzggbbYA=="
+          "hash": "m6hqOXAGLuUxCEPn45MnmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/configuration.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/configuration.html",
+          "hash": "lRWlp7hpXnCSDBmOq+bM2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/credentialmanagement.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/credentialmanagement.html",
+          "hash": "DXUy/PhRIy4bYxPv6lUUKQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +78,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/installation.html",
-          "hash": "AXBQQOpharJqbkVFLY7zSQ=="
+          "hash": "Pb6aLAEtJbDb5mvH+wnxXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/runningtests.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/runningtests.html",
+          "hash": "JPnrt1Z3hrEkyJKalvaVNA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +102,31 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "cZLFk7qYJsrOdmuwMJKFAA=="
+          "hash": "Qfj3rJElIBB2edpNryHDAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/updatenotifications.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/updatenotifications.html",
+          "hash": "D8AO6RNv4RstKj5Okyux1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/upgrading.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/upgrading.html",
+          "hash": "wDnUiSXK7HVMoSrSiUDoKg=="
         }
       },
       "is_incremental": false,
@@ -150,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/nightly/Clear-PnPRecycleBinItem.html",
-          "hash": "3k8UIqyxCG6ZjzMp8zjf5w=="
+          "hash": "ZYvynQBhC4qwwu3+x8+G8g=="
         }
       },
       "is_incremental": false,
@@ -175,6 +247,18 @@
         ".html": {
           "relative_path": "cmdlets/nightly/Convert-PnPSiteTemplate.html",
           "hash": "m6kFKSFcuYAZesVa8P5zpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/nightly/Convert-PnPSiteTemplateToMarkdown.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/nightly/Convert-PnPSiteTemplateToMarkdown.html",
+          "hash": "P7CBiX89hT7+eaPn/0wPFg=="
         }
       },
       "is_incremental": false,
@@ -266,6 +350,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/nightly/Get-PnPChangeLog.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/nightly/Get-PnPChangeLog.html",
+          "hash": "ECJSWW/as9VaLmyh0Ws2MQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/nightly/Get-PnPExternalUser.md",
       "output": {
         ".html": {
@@ -306,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/nightly/Get-PnPPlannerTask.html",
-          "hash": "ZmnEmRr/0lnEALScpJqNkg=="
+          "hash": "IpXHDgVnc3uYyLD1eQaotA=="
         }
       },
       "is_incremental": false,
@@ -342,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/nightly/Get-PnPSiteTemplate.html",
-          "hash": "O8ZmJWdU1krV0S29yuqb6w=="
+          "hash": "jBZx6W9syeFv9DVQf5yheA=="
         }
       },
       "is_incremental": false,
@@ -511,6 +607,18 @@
         ".html": {
           "relative_path": "cmdlets/nightly/Read-PnPSiteTemplate.html",
           "hash": "2eAwK0mnYJTgrLIlXpvpeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/nightly/Register-PnPAzureADApp.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/nightly/Register-PnPAzureADApp.html",
+          "hash": "8YCPrq6tjTh3hq/drN1jJw=="
         }
       },
       "is_incremental": false,
@@ -746,6 +854,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/nightly/Save-PnPSiteTemplate.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/nightly/Save-PnPSiteTemplate.html",
+          "hash": "MfRpds9vHnAxqI4Do0kbIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/nightly/Set-PnPBrowserIdleSignout.md",
       "output": {
         ".html": {
@@ -762,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/nightly/Set-PnPBuiltInDesignPackageVisibility.html",
-          "hash": "1tMXRrGoLtS+iXu8ItxBTg=="
+          "hash": "OOrBfwFof6dQU5dgg772cg=="
         }
       },
       "is_incremental": false,
@@ -787,6 +907,18 @@
         ".html": {
           "relative_path": "cmdlets/nightly/Set-PnPPlannerPlan.html",
           "hash": "JGs30R5eQWw/ittqPuecQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/nightly/Set-PnPPlannerTask.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/nightly/Set-PnPPlannerTask.html",
+          "hash": "faPm97n0VBJGiGvix0gzaA=="
         }
       },
       "is_incremental": false,
@@ -822,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/nightly/Set-PnPStructuralNavigationCacheSiteState.html",
-          "hash": "Qt4hHGZhjD6hd4BGorvslw=="
+          "hash": "mcYJKAvqUNQ5/I8lkH1yeA=="
         }
       },
       "is_incremental": false,
@@ -6462,7 +6594,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/toc.html",
-          "hash": "ZACayHxfY3yGL0VomSHmOw=="
+          "hash": "8+yK7IQiLni4Sn1oeXGnuw=="
         }
       },
       "is_incremental": false,
@@ -6496,7 +6628,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "WBaqDblFLnPQ7jr8NDTprg=="
+          "hash": "rR5SIpiZQTrOeLbxcOQXOA=="
         }
       },
       "is_incremental": false,
@@ -6508,7 +6640,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "eRGjlzZGipKVyF3m4sf2NQ=="
+          "hash": "SO2Uli7gd71ZakUMzhhYtA=="
         }
       },
       "is_incremental": false,
@@ -6529,7 +6661,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 537,
+          "total_file_count": 548,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
