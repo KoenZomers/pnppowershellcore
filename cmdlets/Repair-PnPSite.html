@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Repair-PnPSite | PnP PowerShell ">
     <meta name="generator" content="docfx 2.51.0.0">
-    <meta name="description" content="PnP PowerShell is an open source, community driven, PowerShell Module designed to work against Microsoft 365.">
+    <meta name="description" content="PnP PowerShell is an open source, community driven, PowerShell Module designed to work with Microsoft 365.">
     <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
@@ -77,6 +77,7 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+                <div class="pnp_tags">Available in the current Nightly Release only.</div>
                   <div class="contribution-panel mobile-hide pull-right">
                       <a href="https://github.com/pnp/powershell/blob/dev/documentation/#L1" title="Improve this Doc" class="improve-doc-lg"><i class="glyphicon glyphicon-pencil"></i></a>
                   </div>
@@ -96,11 +97,11 @@
 <p>The cmdlet reports the health check rules with a summary of the results. The rules might not support automatic repair. Tests without repair mode can be initiated by running the Test-PnPSite cmdlet.</p>
 <h2 id="examples">EXAMPLES</h2>
 <h3 id="example-1">EXAMPLE 1</h3>
-<pre><code class="lang-powershell">Repair-PnPSite &quot;https://contoso.sharepoint.com/sites/marketing&quot;
+<pre><code class="lang-powershell">Repair-PnPSite -Identity &quot;https://contoso.sharepoint.com/sites/marketing&quot;
 </code></pre>
 <p>This example runs all the site collection health checks in repair mode on the <a href="https://contoso.sharepoint.com/sites/marketing">https://contoso.sharepoint.com/sites/marketing</a> site collection.</p>
 <h3 id="example-2">EXAMPLE 2</h3>
-<pre><code class="lang-powershell">Repair-PnPSite &quot;https://contoso.sharepoint.com/sites/marketing&quot; -RuleID &quot;ee967197-ccbe-4c00-88e4-e6fab81145e1&quot;
+<pre><code class="lang-powershell">Repair-PnPSite -Identity &quot;https://contoso.sharepoint.com/sites/marketing&quot; -RuleID &quot;ee967197-ccbe-4c00-88e4-e6fab81145e1&quot;
 </code></pre>
 <p>This example runs the Missing Galleries Check rule in repair mode on the <a href="https://contoso.sharepoint.com/sites/marketing">https://contoso.sharepoint.com/sites/marketing</a> site collection.</p>
 <h2 id="parameters">PARAMETERS</h2>
