@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Invoke-PnPBatch | PnP PowerShell </title>
+    <title>Remove-PnPSiteCollectionTermStore | PnP PowerShell </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Invoke-PnPBatch | PnP PowerShell ">
+    <meta name="title" content="Remove-PnPSiteCollectionTermStore | PnP PowerShell ">
     <meta name="generator" content="docfx 2.51.0.0">
     <meta name="description" content="PnP PowerShell is an open source, community driven, PowerShell Module designed to work with Microsoft 365.">
     <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2">
@@ -81,28 +81,24 @@
                   <div class="contribution-panel mobile-hide pull-right">
                       <a href="https://github.com/pnp/powershell/blob/dev/documentation/#L1" title="Improve this Doc" class="improve-doc-lg"><i class="glyphicon glyphicon-pencil"></i></a>
                   </div>
-                    <h1 id="invoke-pnpbatch">Invoke-PnPBatch</h1>
+                    <h1 id="remove-pnpsitecollectiontermstore">Remove-PnPSiteCollectionTermStore</h1>
 
 <h2 id="synopsis">SYNOPSIS</h2>
-<p>Executes the batch</p>
+<p>Removes the site collection term store if it exists or else nothing will happen</p>
 <h2 id="syntax">SYNTAX</h2>
-<pre><code class="lang-powershell">Invoke-PnPBatch [-Batch] &lt;PnPBatch&gt; [-Details] [-StopOnException] [-Force]
+<pre><code class="lang-powershell">Remove-PnPSiteCollectionTermStore [-Connection &lt;PnPConnection&gt;] [&lt;CommonParameters&gt;]
 </code></pre>
 <h2 id="description">DESCRIPTION</h2>
-<p>Executes any queued actions / changes in the batch.</p>
+<p>Removes the site collection scoped term store for the currently connected to site collection. If it does not exist yet, it will not do anything.</p>
 <h2 id="examples">EXAMPLES</h2>
 <h3 id="example-1">EXAMPLE 1</h3>
-<pre><code class="lang-powershell">$batch = New-PnPBatch
-Add-PnPListItem -List &quot;DemoList&quot; -Values @{&quot;Title&quot;=&quot;Demo Item 1&quot;} -Batch $batch
-Add-PnPListItem -List &quot;DemoList&quot; -Values @{&quot;Title&quot;=&quot;Demo Item 2&quot;} -Batch $batch
-Add-PnPListItem -List &quot;DemoList&quot; -Values @{&quot;Title&quot;=&quot;Demo Item 3&quot;} -Batch $batch
-Invoke-PnPBatch -Batch $batch
+<pre><code class="lang-powershell">Remove-PnPSiteCollectionTermStore
 </code></pre>
-<p>This will add the 3 defined list items in the batch.</p>
+<p>Removes the site collection term store.</p>
 <h2 id="parameters">PARAMETERS</h2>
-<h3 id="-batch">-Batch</h3>
-<p>The batch to execute</p>
-<pre><code class="lang-yaml">Type: PnPBatch
+<h3 id="-connection">-Connection</h3>
+<p>Optional connection to be used by the cmdlet. Retrieve the value for this parameter by either specifying -ReturnConnection on Connect-PnPOnline or by executing Get-PnPConnection.</p>
+<pre><code class="lang-yaml">Type: PnPConnection
 Parameter Sets: (All)
 
 Required: False
@@ -111,32 +107,11 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 </code></pre>
-<h3 id="-force">-Force</h3>
-<p>Once a batch has been executed you cannot execute it again. Using -Force will allow you to reexecute the batch again.</p>
+<h3 id="-whatif">-WhatIf</h3>
+<p>Shows what would happen if the cmdlet runs. The cmdlet is not run.</p>
 <pre><code class="lang-yaml">Type: SwitchParameter
 Parameter Sets: (All)
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-</code></pre>
-<h3 id="-details">-Details</h3>
-<p>Will return detailed information of the batch executed.</p>
-<pre><code class="lang-yaml">Type: SwitchParameter
-Parameter Sets: (All)
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-</code></pre>
-<h3 id="-stoponexception">-StopOnException</h3>
-<p>By default the batch will be fully executed. If any exceptions occur during this process they will be listed after the full run. Specify this switch to stop immediately after an exception occurs. The rest of the batch will be skipped then.</p>
-<pre><code class="lang-yaml">Type: SwitchParameter
-Parameter Sets: (All)
+Aliases: wi
 
 Required: False
 Position: Named
