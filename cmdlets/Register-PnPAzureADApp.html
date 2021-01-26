@@ -92,6 +92,7 @@
                                        [-Username &lt;String&gt;]
                                        [-Password &lt;SecureString&gt;]
                                        [-DeviceLogin]
+                                       [-Interactive]
                                        [-CommonName &lt;String&gt;]
                                        [-OutPath &lt;String&gt;]
                                        [-Store &lt;StoreLocation&gt;]
@@ -112,6 +113,7 @@
                                        [-Username &lt;String&gt;]
                                        [-Password &lt;SecureString&gt;]
                                        [-DeviceLogin]
+                                       [-Interactive]
                                        [-Scopes &lt;String[]&gt;]
                                        [-CertificatePassword &lt;SecureString&gt;]
                                        [-NoPopup]
@@ -139,6 +141,10 @@
 <pre><code class="lang-powershell">Register-PnPAzureADApp -DeviceLogin -ApplicationName TestApp -Tenant yourtenant.onmicrosoft.com -CertificatePath c:\certificate.pfx -CertificatePassword (ConvertTo-SecureString -String &quot;password&quot; -AsPlainText -Force) 
 </code></pre>
 <p>Creates a new Azure AD Application registration and asks you to authenticate using device login methods, creates a new self signed certificate, and adds it to the local certificate store. It will upload the certificate to the azure app registration and it will request the following permissions: Sites.FullControl.All, Group.ReadWrite.All, User.Read.All</p>
+<h3 id="------------------example-6------------------">------------------EXAMPLE 6------------------</h3>
+<pre><code class="lang-powershell">Register-PnPAzureADApp -Interactive -ApplicationName TestApp -Tenant yourtenant.onmicrosoft.com -CertificatePath c:\certificate.pfx -CertificatePassword (ConvertTo-SecureString -String &quot;password&quot; -AsPlainText -Force) 
+</code></pre>
+<p>Creates a new Azure AD Application registration and asks you to authenticate using username and password, creates a new self signed certificate, and adds it to the local certificate store. It will upload the certificate to the azure app registration and it will request the following permissions: Sites.FullControl.All, Group.ReadWrite.All, User.Read.All</p>
 <h2 id="parameters">PARAMETERS</h2>
 <h3 id="-username">-Username</h3>
 <p>The username to use when logging into the Microsoft Graph. Notice that this user account needs to have write access to the Azure AD</p>
