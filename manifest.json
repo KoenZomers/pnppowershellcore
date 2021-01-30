@@ -1254,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Convert-PnPSiteTemplateToMarkdown.html",
-          "hash": "YxPyhEmroWMrXqb/B4EbNw=="
+          "hash": "5Vf83B6lCk4jxTCH7R3e4Q=="
         }
       },
       "is_incremental": false,
@@ -2970,7 +2970,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Get-PnPSiteUserInvitations.html",
-          "hash": "ccEM0sAZJRop8HdjPK+Tmw=="
+          "hash": "OxyPVzgvR4Bq5Q7dzjHejA=="
         }
       },
       "is_incremental": false,
@@ -3006,7 +3006,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Get-PnPStructuralNavigationCacheSiteState.html",
-          "hash": "vVWUkLfr2AIMnhHIIfiJcg=="
+          "hash": "j70Cl44DM6D4V6BAAEtZgQ=="
         }
       },
       "is_incremental": false,
@@ -3018,7 +3018,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Get-PnPStructuralNavigationCacheWebState.html",
-          "hash": "/9XKoWba8Lp6+ojIaKCzrg=="
+          "hash": "bsGvfpN+eTexrrHy2C9zYA=="
         }
       },
       "is_incremental": false,
@@ -7048,7 +7048,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "JR/RjZjpn1zgCLHWYMznHg=="
+          "hash": "T7JuKuS/+c1iv7hjoQh6wQ=="
         }
       },
       "is_incremental": false,
