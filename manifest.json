@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/connecting.html",
-          "hash": "tySRxMnyrERJ0wyKjW4SNA=="
+          "hash": "OFzQWDFWqCvkvhzqK2PnGA=="
         }
       },
       "is_incremental": false,
@@ -4398,7 +4398,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Register-PnPAzureADApp.html",
-          "hash": "Rm8QfQ8JKYcZeC8efcdnNA=="
+          "hash": "G1ImMJ2VOAnpFZ2H4yKrIw=="
         }
       },
       "is_incremental": false,
