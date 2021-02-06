@@ -1970,6 +1970,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Get-PnPDisableSpacesActivation.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Get-PnPDisableSpacesActivation.html",
+          "hash": "IoxKSAiJoIS/Nn6DxJ6SsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Get-PnPDocumentSetTemplate.md",
       "output": {
         ".html": {
@@ -5906,6 +5918,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Set-PnPDisableSpacesActivation.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Set-PnPDisableSpacesActivation.html",
+          "hash": "T13/XmC7q2rwiExlnkKhzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Set-PnPDocumentSetField.md",
       "output": {
         ".html": {
@@ -7002,7 +7026,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/toc.html",
-          "hash": "PtmTvT4tf+5NWoXLq1R+vg=="
+          "hash": "6Nzt4qxSlmToBgs7gHziwA=="
         }
       },
       "is_incremental": false,
@@ -7081,7 +7105,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 583,
+          "total_file_count": 585,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
