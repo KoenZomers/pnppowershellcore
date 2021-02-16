@@ -3018,7 +3018,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Get-PnPStructuralNavigationCacheSiteState.html",
-          "hash": "j70Cl44DM6D4V6BAAEtZgQ=="
+          "hash": "jTFhU/igGnC2hqVso6MNUQ=="
         }
       },
       "is_incremental": false,
@@ -3030,7 +3030,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Get-PnPStructuralNavigationCacheWebState.html",
-          "hash": "bsGvfpN+eTexrrHy2C9zYA=="
+          "hash": "zBVceZfn62iOG9nTIe3F9g=="
         }
       },
       "is_incremental": false,
@@ -5610,7 +5610,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Restore-PnPRecycleBinItem.html",
-          "hash": "R/3CWfoLLm0tzvYlUOO0cg=="
+          "hash": "y2hgZHlutH0Ru+MISF5IdA=="
         }
       },
       "is_incremental": false,
@@ -6486,7 +6486,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Set-PnPStructuralNavigationCacheSiteState.html",
-          "hash": "3e77Tawe984BTbkYtSCfGw=="
+          "hash": "h1A0lkaVXMIj2Gvpc8wXZQ=="
         }
       },
       "is_incremental": false,
@@ -6498,7 +6498,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Set-PnPStructuralNavigationCacheWebState.html",
-          "hash": "2sfzVovuLWF1p2sKPhFb8A=="
+          "hash": "45eVssSueD9ojS7KDCHJfw=="
         }
       },
       "is_incremental": false,
