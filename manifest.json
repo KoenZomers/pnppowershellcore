@@ -1790,6 +1790,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Get-PnPAzureADAppSitePermission.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Get-PnPAzureADAppSitePermission.html",
+          "hash": "ZlFO3YNR7Zabk0KjITfpcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Get-PnPAzureCertificate.md",
       "output": {
         ".html": {
@@ -3614,6 +3626,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Grant-PnPAzureADAppSitePermission.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Grant-PnPAzureADAppSitePermission.html",
+          "hash": "UX58zWYY3Zto7bufKYuaGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Grant-PnPHubSiteRights.md",
       "output": {
         ".html": {
@@ -4471,6 +4495,18 @@
         ".html": {
           "relative_path": "cmdlets/Remove-PnPApplicationCustomizer.html",
           "hash": "37xhpJaT0yV3dpVODuVUbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Remove-PnPAzureADAppSitePermission.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Remove-PnPAzureADAppSitePermission.html",
+          "hash": "t/KZVpeH6rihR7YHJCmAAQ=="
         }
       },
       "is_incremental": false,
@@ -5810,6 +5846,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Set-PnPAzureADAppSitePermission.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Set-PnPAzureADAppSitePermission.html",
+          "hash": "LKzM6zXraCSAoVhHUP5vJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Set-PnPBrowserIdleSignout.md",
       "output": {
         ".html": {
@@ -7026,7 +7074,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/toc.html",
-          "hash": "6Nzt4qxSlmToBgs7gHziwA=="
+          "hash": "3tJx/c08TuuUdGdpC6tQiw=="
         }
       },
       "is_incremental": false,
@@ -7105,7 +7153,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 585,
+          "total_file_count": 589,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
